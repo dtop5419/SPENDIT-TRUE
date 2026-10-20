@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="SpendIt logo">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17142f"/><stop offset="1" stop-color="#080d1b"/></linearGradient>
+ <linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a6f4ff"/><stop offset=".42" stop-color="#7378ff"/><stop offset=".76" stop-color="#c18cff"/><stop offset="1" stop-color="#50d8ff"/></linearGradient>
+ <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#57dfff"/><stop offset=".52" stop-color="#8074ff"/><stop offset="1" stop-color="#e4a1ff"/></linearGradient>
+ <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="3" y="3" width="122" height="122" rx="34" fill="url(#bg)" stroke="#464a83" stroke-opacity=".75"/>
+<path d="M83 35c-7-7-16-10-27-10-18 0-30 9-30 23 0 13 9 20 28 24 11 2 16 5 16 9 0 5-6 8-15 8-11 0-20-4-27-11l-9 13c9 9 21 14 37 14 21 0 35-10 35-25 0-13-9-20-29-24-10-2-15-4-15-8 0-4 4-7 12-7 8 0 15 2 21 7z" fill="url(#s)" filter="url(#glow)"/>
+<ellipse cx="64" cy="67" rx="53" ry="19" transform="rotate(-24 64 67)" fill="none" stroke="url(#orbit)" stroke-width="4.2" filter="url(#glow)"/>
+<path d="M94 19l3.2 7.2 7.2 3.2-7.2 3.2-3.2 7.2-3.2-7.2-7.2-3.2 7.2-3.2z" fill="#e8ddff"/>
+</svg>
