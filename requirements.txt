@@ -4,3 +4,4 @@ Flask-SQLAlchemy==3.0.5
 Werkzeug==2.3.7
 SQLAlchemy==1.4.48
 Authlib==1.8.0
+gunicorn==23.0.0
